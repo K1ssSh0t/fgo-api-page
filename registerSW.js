@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fgo-api-page/sw.js', { scope: '/fgo-api-page/' })})}
